@@ -21,7 +21,7 @@ class TLDetector(object):
         rospy.init_node('tl_detector')
         self.bridge = CvBridge()
 
-        self.use_ground_truth = True # TODO Set to False when you don't want to use ground truth traffic light information any longer
+        self.use_ground_truth = False # TODO Set to False when you don't want to use ground truth traffic light information any longer
         self.detector = TrafficLightDetector()
         self.state = TrafficLight.UNKNOWN
         self.state_count = 0

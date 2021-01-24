@@ -1,0 +1,5 @@
+# pip install -r requirements.txt
+
+# base ----------------------------------------
+torchvision>=0.8.1
+tqdm>=4.41.0
